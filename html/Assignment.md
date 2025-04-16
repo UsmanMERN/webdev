@@ -30,21 +30,6 @@
    - Add a `title` attribute to the `<p>` (e.g., `title="This is a tooltip"`).  
    - Add a custom data attribute to the `<p>`, e.g., `data-author="YourName"`.  
 3. **Add** an `id="intro"` to the paragraph and a `class="highlight"` to the `<strong>` element.  
-4. **Validate** your HTML with the W3C Validator (https://validator.w3.org/) and fix any errors.
-
----
-
-## Assignment 4: CSS & Color Formats  
-**Objective:** Practice including CSS and using different color notations.  
-1. **Create** a stylesheet named `day1-styles.css`.  
-2. **In** your `day1-structure.html`:  
-   - Link to `day1-styles.css` via `<link rel="stylesheet" href="day1-styles.css">`.  
-3. **In** `day1-styles.css`, write rules to:  
-   - Set `body { background-color: #f2f2f2; }`  
-   - Style all `<h1>` elements with `color: rgb(0, 51, 102);`  
-   - Style all `<p>` elements with `color: hsl(0, 0%, 20%);` and `line-height: 1.6;`  
-4. **Open** your page and verify the styles apply correctly.
-
 ---
 
 ## Assignment 5: Links & Images  
