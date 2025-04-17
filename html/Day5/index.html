@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 5 Learning Forms</title>
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <h1>Learning Forms in Html</h1>
+        <form>
+            <fieldset>
+                <legend>Personal Info</legend>
+
+                <label>
+                    first name:
+                    <input type="text" placeholder="first name" name="first_name" required>
+                </label>
+                <br>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" placeholder="email" required>
+                <br>
+                <br>
+                <label for="phone_number">Phone number :</label>
+                <input type="tel" id="phone_number" name="Phone number" placeholder="enter phone number" required>
+                <br>
+                <br>
+                <label for="url">url :</label>
+                <input type="url" id="url" name="url" placeholder="enter url" required>
+                <br>
+                <br>
+                <label for="number">number :</label>
+                <input type="number" id="number" name="number" placeholder="Enter Number" required min="0" max="100">
+                <br>
+                <br>
+                <label for="search">search :</label>
+                <input type="search" id="search" name="search" placeholder="Enter Search" required>
+                <br>
+                <br>
+                <label for="date">date :</label>
+                <input type="date" id="date" name="date" placeholder="Enter date" required>
+                <br>
+                <br>
+                <label for="time">time :</label>
+                <input type="time" id="time" name="time" placeholder="Enter time" required>
+                <br>
+                <br>
+                <label for="color">color :</label>
+                <input type="color" id="color" name="color" placeholder="Enter color" required>
+                <br>
+                <br>
+                <label for="vol">Volume:</label>
+                <input type="range" id="vol" name="volume" min="0" max="100" step="1" value="5">
+                <br>
+                <br>
+                <label><input type="radio" name="gender" value="female"> Female</label>
+                <label><input type="radio" name="gender" value="male"> Male</label>
+                <label><input type="radio" name="gender" value="other"> Other</label>
+                <br>
+                <br>
+                <label for="avatar">Upload Avatar:</label>
+                <input type="file" id="avatar" name="avatar" accept="image/png" required>
+
+                <label>
+                    <input type="checkbox" name="toppings[]" value="pepperoni">
+                    Pepperoni
+                </label><br>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="mushrooms">
+                    Mushrooms
+                </label><br>
+                <label>
+                    <input type="checkbox" name="toppings[]" value="olives">
+                    Olives
+                </label>
+
+                <label for="students">Students</label>
+                <select name="students" id="students">
+                    <option value="1">Student 1</option>
+                    <option value="2">Student 2</option>
+                    <option value="3">Student 3</option>
+                    <option value="4">Student 4</option>
+                </select>
+
+                <label for="country">Country:</label>
+                <select id="country" name="country">
+                    <optgroup label="Europe">
+                        <option value="fr">France</option>
+                        <option value="de">Germany</option>
+                    </optgroup>
+                    <optgroup label="Asia">
+                        <option value="pk">Pakistan</option>
+                        <option value="jp">Japan</option>
+                    </optgroup>
+                </select>
+
+                <label for="browser">Browser:</label>
+                <input list="browsers" name="browser">
+                <datalist id="browsers">
+                    <option value="Chrome">
+                    <option value="Firefox">
+                    <option value="Safari">
+                    <option value="edge">
+                </datalist>
+
+
+
+                <article>
+                    <h2>Event Recap</h2>
+                    <p>We held our meetup on <time datetime="2025-04-17">April 17, 2025</time>.</p>
+                </article>
+
+                <figure>
+                    <img src="eiffel.jpg" alt="Eiffel Tower at night">
+                    <figcaption>The Eiffel Tower illuminated in Paris, France.</figcaption>
+                </figure>
+
+                <section>
+                    <h2>Latest News</h2>
+
+                    <article>
+                        <h3>HTML5 Rocks!</h3>
+                        <p>HTML5 introduces many new features including semantic tags.</p>
+                    </article>
+
+                    <article>
+                        <h3>CSS Tips</h3>
+                        <p>Learn how to make responsive layouts using Flexbox and Grid.</p>
+                    </article>
+                </section>
+
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </fieldset>
+        </form>
+
+    </main>
+    <footer>
+        <p>&copy; All Rights Reserved 2025</p>
+    </footer>
+</body>
+
+</html>
