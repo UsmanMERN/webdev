@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mandaic&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Noto Sans Mandaic", "Roboto", sans-serif, ;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.paragraph {
+    line-height: 1.2;
+    /* letter-spacing: 0.5rem; */
+    word-spacing: 0.5rem;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: blue;
+    text-indent: 2rem;
+}
+
+a {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-shadow: 19px -8px 2px #CE5937;
+}
