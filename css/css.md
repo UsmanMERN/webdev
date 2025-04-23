@@ -15,7 +15,7 @@
 - **Width, Height, and Overflow**: Explain fixed vs. auto sizing, and `overflow: hidden/scroll/auto`   
 - **Exercise**: Build a card component that correctly spaces and sizes content.  
 
-## Module 4: Text, Fonts, and Colors  
+## Module 4: Text, Fonts, and Colors  icons
 - **Typography Properties**: `font-family`, `font-size`, `line-height`, `font-weight`, and web fonts via `@font-face`.  
 - **Color Models**: Hex, RGB(A), HSL(A), and currentColor keyword .  
 - **Text Effects**: `text-shadow`, `letter-spacing`, `word-spacing`.  
