@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    /* background-image: linear-gradient(to left top, #1b263b, #3d345c, #703a70, #a83c73, #d94363, #dc456c, #df4875, #e14b7e, #a7539a, #625997, #2e547a, #264653); */
+
+    /* background-color: rgba(255, 0, 0, 1); */
+
+}
+
+
+
+/* h1,
+li,
+h2 {
+    font-size: 100px;
+} */
+
+/* .container p {
+    color: red;
+    font-size: 20px;
+} */
+/* .container>p {
+    color: red;
+    font-size: 20px;
+} */
+
+.container~div {
+    color: #000000;
+    font-size: 20px;
+}

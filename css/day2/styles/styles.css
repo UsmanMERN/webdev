@@ -30,3 +30,46 @@ h1 {
     text-transform: capitalize;
     text-shadow: 19px -8px 2px #CE5937;
 }
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ff00ff;
+}
+
+input[type="text"] {
+    border-color: #ff00ff;
+}
+
+/* a[href="text"] {
+    border-color: #ff00ff;
+} */
+
+input[type=text]:focus {
+    border: 3px solid #ff00ff;
+    outline: none;
+}
+
+/* section:nth-child(3) {
+    background-color: #ff00ff;
+} */
+section:last-child {
+    background-color: #ff00ff;
+}
+
+input::placeholder {
+    color: #ff00ff;
+}
+
+input {
+    color: #ff00ff;
+}
+
+h2::first-letter {
+    color: #CE5937;
+    font-size: larger;
+}
