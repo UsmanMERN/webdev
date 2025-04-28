@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Special+Gothic&family=Special+Gothic+Expanded+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* div {
+    height: 200px;
+    width: 200px;
+}
+
+.javascript {
+    color: blue;
+    font-size: 48px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: overline;
+    text-decoration: underline;
+    font-family: "Special Gothic", sans-serif;
+}
+
+.icon {
+    color: blueviolet;
+    font-size: 50px;
+} */
+
+/* 
+.html {
+    background-color: burlywood;
+}
+
+.html {
+    color: blueviolet;
+}
+
+.css {
+    color: brown;
+}
+
+.css {
+    background-color: aqua;
+}
+
+.javascript {
+    background-color: beige;
+}
+
+.react {
+    background-color: blue;
+} */
+
+/* .section {
+    background-color: #ffb703;
+    color: tomato;
+}
+
+#section1 {
+    background-color: burlywood;
+    color: blueviolet;
+
+} */
+
+header h1 {
+    width: 30%;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+nav {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+ul li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    /* color: #CE5937; */
+}
+
+li a:hover {
+    color: red;
+}
+
+input [type="text"] {
+    background-color: #CE5937;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+body {
+    /* overflow: hidden; */
+    /* height: 200vh;
+    width: 100vw; */
+
+}
+
+header {
+    background-color: #CE5937;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+main {
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+section p {
+    min-height: 100px;
+    min-width: 100px;
+    max-height: 200px;
+    max-width: 200px;
+    background-color: #CE5937;
+    color: white;
+    /* overflow: scroll; */
+    overflow-x: hidden;
+    /* scrollbar-width: none; */
+    overflow-y: auto;
+    clip-path: polygon(0 0, 56% 43%, 81% 1%, 100% 70%, 69% 69%, 49% 100%, 0% 70%, 35% 50%);
+
+
+}
+
+.adnanbhai {
+    height: 300px;
+    width: 300px;
+    /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
+    text-align: center;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)), url("https://thumbor.rouvy.com/19pp7YVdVXQ--0Xkj24olB5st7E=/center/middle/https%3A%2F%2Fcdn.rouvy.com%2Fcms%2Fshutterstock_2052696470_min_deaebabc60%2Fshutterstock_2052696470_min_deaebabc60.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    text-shadow: 14px 10px 6px #CE5937;
+    background-attachment: fixed;
+    clip-path: polygon(0 0, 56% 43%, 81% 1%, 100% 70%, 69% 69%, 49% 100%, 0% 70%, 35% 50%);
+
+    /* background-position: bottom center; */
+}
+
+footer {
+    background-color: #CE5937;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
