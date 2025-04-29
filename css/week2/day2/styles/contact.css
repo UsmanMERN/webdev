@@ -1,0 +1,37 @@
+header {
+    /* From https://css.glass */
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.8px);
+    -webkit-backdrop-filter: blur(5.8px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 80px;
+    position: sticky;
+    top: 0;
+    z-index: 300;
+    /* width: 100%; */
+}
+
+/* body {
+    padding: 80px 0 0 0;
+} */
+
+header h1 {
+    color: #fff;
+    font-size: 2rem;
+    text-align: center;
+    margin: 0;
+    display: inline-block;
+}
+
+header nav {
+    display: inline-block;
+    width: 70%;
+    text-align: center;
+}
+
+nav ul li {
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+}
