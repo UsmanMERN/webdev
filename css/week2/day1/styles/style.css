@@ -142,12 +142,12 @@ section p {
     width: 300px;
     /* background-image: linear-gradient(to right top, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1); */
     text-align: center;
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.6)), url("https://thumbor.rouvy.com/19pp7YVdVXQ--0Xkj24olB5st7E=/center/middle/https%3A%2F%2Fcdn.rouvy.com%2Fcms%2Fshutterstock_2052696470_min_deaebabc60%2Fshutterstock_2052696470_min_deaebabc60.jpg");
+    background-image: linear-gradient(to bottom, #d16ba5, #c777b9, #ba83ca, #aa8fd8, #9a9ae1, #8aa7ec, #79b3f4, #69bff8, #52cffe, #41dfff, #46eefa, #5ffbf1, transparent), url("https://thumbor.rouvy.com/19pp7YVdVXQ--0Xkj24olB5st7E=/center/middle/https%3A%2F%2Fcdn.rouvy.com%2Fcms%2Fshutterstock_2052696470_min_deaebabc60%2Fshutterstock_2052696470_min_deaebabc60.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     text-shadow: 14px 10px 6px #CE5937;
     background-attachment: fixed;
-    clip-path: polygon(0 0, 56% 43%, 81% 1%, 100% 70%, 69% 69%, 49% 100%, 0% 70%, 35% 50%);
+    /* clip-path: polygon(0 0, 56% 43%, 81% 1%, 100% 70%, 69% 69%, 49% 100%, 0% 70%, 35% 50%); */
 
     /* background-position: bottom center; */
 }

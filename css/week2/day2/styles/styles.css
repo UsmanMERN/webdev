@@ -1,0 +1,25 @@
+@import url('./contact.css');
+@import url('./about.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home_body {
+    background-image: url("https://letsenhance.io/static/73136da51c245e80edc6ccfe44888a99/1015f/MainBefore.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 200vh;
+}
+
+/* 
+static
+relative
+absolute
+fixed
+sticky
+
+
+*/
