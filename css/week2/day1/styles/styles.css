@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+} */
+
+.box1,
+.box2 {
+    width: 300px;
+    height: 300px;
+    margin: 20px 20px;
+    padding: 15px;
+    color: #4CAF50;
+    border: 4px solid #4CAF50;
+    background: #000;
+    text-align: center;
+    border-radius: 20px;
+    clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+
+}
+
+body {
+    /* 1) Top-most layer: left→right gradient overlay */
+    /* 2) Middle layer: top→bottom gradient overlay */
+    /* 3) Bottom layer: the coffee photo */
+    background-image: linear-gradient(to right top, rgba(0, 0, 0, 0.8)), url("../assets/iStock-814684194-coffee-x.jpg");
+
+    /* Don’t tile any layer */
+    background-repeat: no-repeat, no-repeat, no-repeat;
+
+    /* Make each layer exactly fill the viewport */
+    background-size: cover, cover, cover;
+
+    /* Lock all three layers to the viewport */
+    background-attachment: fixed, fixed, fixed;
+
+    /* Center each layer both horizontally & vertically */
+    background-position: center center, center center, center center;
+}
+
+
+
+/* .box1 {
+    margin-bottom: 30px;
+    }
+    
+    .box2 {
+        z-index: 4;
+        }
+        
+        
+        .box1 {
+            position: relative;
+            top: 70px;
+            left: 170px;
+            background: #fdd;
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            } */
+
+/* .box1 {
+                position: fixed;
+                top: calc(100% - 100px);
+                left: calc(100% - 100px);
+                background: #fdd;
+                width: 80px;
+                height: 80px;
+                border-radius: 50%;
+                } */
+
+.box1,
+.box2 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+}
+
+.box1 {
+    background: rgba(255, 0, 0, 0.6);
+    z-index: 1;
+    /* sits above box2 */
+}
+
+.box2 {
+    background: rgba(0, 0, 255, 0.6);
+    top: -60px;
+    left: 40px;
+    z-index: 5;
+}
+
+.flexbox {
+    /* position: relative; */
+    /* background: #f0f0ff; */
+    /* margin-top: 120px; */
+}
+
+main {
+    min-height: calc(100vh - 120px);
+}
+
+header {
+    position: sticky;
+    background: #000;
+    color: #4CAF50;
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    top: 0;
+    height: 120px;
+}
+
+/* nav {
+    position: fixed;
+    background: #000;
+    color: #4CAF50;
+    width: 100%;
+    padding: 30px 20px;
+    text-align: center;
+    top: 120;
+    height: 120px;
+    } */
+.box1 {
+    background-image: url('https://www.myweekly.co.uk/wp-content/uploads/sites/9/2018/06/iStock-814684194-coffee-x.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+
+}
