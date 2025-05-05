@@ -1,0 +1,52 @@
+.hero-container {
+    background-color: #FAC694;
+    padding: 80px 20px;
+    display: flex;
+}
+
+.hero-container .hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 64px;
+    padding: 20px 0px;
+}
+
+.hero-para {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-size: 32px;
+    padding: 20px 0px;
+}
+
+
+.top-card {
+    background-color: #FCEAC8;
+    padding: 20px;
+    border-radius: 30px;
+    width: 350px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 400px;
+    border-radius: 30px;
+    object-fit: cover;
+    transform: translateY(-150px);
+}
+
+.hero-btn {
+    background-color: #911F27;
+    padding: 20px 40px;
+    /* border-radius: 30px; */
+    font-size: 32px;
+    font-weight: bold;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    margin-top: 20px;
+}

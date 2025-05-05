@@ -1,0 +1,82 @@
+@import url("./shop.css");
+@import url("./men.css");
+@import url("./home.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+header {
+    background-color: #FCEAC8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.nav-list {
+    display: flex;
+    gap: 20px;
+}
+
+ul li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    font-size: 32px;
+    color: black;
+}
+
+.logo {
+    height: 80px;
+}
+
+.icons {
+    display: flex;
+    gap: 40px;
+    font-size: 36px;
+    color: brown;
+}
+
+main {
+    min-height: 100vh;
+}
+
+footer {
+    background-color: #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: #fff;
+}
+
+.footer-container {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-container ul li {
+    padding: 13px 0;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.footer-list-first-item {
+    font-size: 40px;
+    font-weight: 900;
+}
