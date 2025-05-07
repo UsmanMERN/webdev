@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+span {
+    font-size: 20px;
+    color: #fff;
+    font-weight: bold;
+    background-color: #000;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.box {
+    background-color: brown;
+    height: 120px;
+    width: 120px;
+    margin: 10px;
+    border: 1px solid #000;
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    gap: 100px;
+    justify-content: end;
+}
+
+.box1 {
+    background-color: aqua;
+    /* text-align: end; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    order: 5;
+
+}
+
+.hero-bg {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8)), url("../assets/image1.jpg");
+    height: 500px;
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero-text {
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.box2 {
+    order: 3;
+}
+
+.box3 {
+    order: 10;
+}
+
+.col {
+    background-color: #0fa3b1;
+    border-radius: 10px;
+    color: #fff;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.image {
+    height: 250px;
+    width: 250px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+p {
+    text-align: center;
+    padding: 15px;
+}
+
+.bottom_text {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+button {
+    background-color: #0f1ab1;
+    color: #fff;
+    border: 0px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: crosshair;
+    font-size: 16px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header {
+    background-color: #0fa3b1;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}

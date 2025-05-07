@@ -1,0 +1,23 @@
+.main-heading {
+    color: aqua !important;
+}
+
+.feature-section {
+    display: flex;
+    justify-content: center;
+}
+
+.feature-img {
+    width: 300px;
+}
+
+.feature-img-left {
+    width: 150px;
+    margin: 10px;
+    background-color: blue;
+}
+
+.leftside {
+    background-color: aqua;
+    margin: 10px;
+}
