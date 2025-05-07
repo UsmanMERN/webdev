@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 300px;
+    height: 300px;
+    background-color: red;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+.box:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: tomato;
+}
+
+.box:hover {
+    background-color: blue;
+    cursor: pointer;
+    color: tomato;
+    height: 200px;
+    /* transition: all 0.5s ease-in-out; */
+    /* transform: rotate(360deg); */
+    animation: example 5s ease-in-out alternate;
+}
+
+@keyframes example {
+
+    /* from {
+        background-color: red;
+        transform: rotate(0deg);
+    }
+
+
+    to {
+        background-color: yellow;
+        transform: rotate(180deg);
+    }
+
+    to {
+        background-color: orange;
+        transform: rotate(360deg);
+    } */
+    0% {
+        background-color: red;
+        transform: rotate(0deg);
+    }
+
+    25% {
+        background-color: yellow;
+        transform: rotate(90deg);
+    }
+
+    50% {
+        background-color: blue;
+        transform: rotate(180deg);
+    }
+
+    100% {
+        background-color: green;
+        transform: rotate(270deg);
+    }
+
+}
+
+/* large */
+
+/* 992px sa above hoti ha  */
+
+/* medium  */
+
+/* 768px sa above hoti ha  */
+/* small  */
+
+/* 768 px sa niche hoti ha   */
+
+
+
+@media (max-width: 992px) {
+    .box {
+        background-color: green;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    .box {
+        background-color: orange;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .box {
+        background-color: brown;
+        width: 200px;
+        height: 200px;
+    }
+
+    .container {
+        flex-direction: row;
+    }
+} */

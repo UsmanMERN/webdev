@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.left-box {
+    height: 800px;
+    background-color: #0f0f0f !important;
+}
+
+.right-box {
+    height: 500px;
+}
