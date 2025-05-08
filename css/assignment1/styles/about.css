@@ -1,0 +1,90 @@
+.about {
+    padding: 80px 20px;
+    background: #16213e;
+    text-align: center;
+    color: #e1e1e1;
+}
+
+.about h2 {
+    font-size: 48px;
+    margin-bottom: 50px;
+    color: #4ecdc4;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.about-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 300px;
+    text-align: left;
+}
+
+.about-text p {
+    font-size: 18px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+.about-image {
+    flex: 1;
+    min-width: 300px;
+}
+
+.about-image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease;
+}
+
+.about-image img:hover {
+    transform: scale(1.05);
+}
+
+.about-values {
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about-values h3 {
+    font-size: 28px;
+    color: #ff6b6b;
+    margin-bottom: 20px;
+}
+
+.about-values ul {
+    list-style: none;
+    padding: 0;
+}
+
+.about-values li {
+    font-size: 18px;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 30px;
+}
+
+.about-values li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #4ecdc4;
+    font-size: 20px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+}

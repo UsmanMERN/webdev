@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #e7cfcf;
+    color: #333;
+    min-height: 100vh;
+}
+
+.box {
+    height: 150px;
+    width: 150px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    margin: 3px;
+}
+
+span {
+    background-color: black;
+    border: 2px solid #ccc;
+    margin: 3px;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    /* align-items: ; */
+    justify-content: space-around;
+}
+
+.box1 {
+    height: 100px;
+}
