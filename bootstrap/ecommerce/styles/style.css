@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.primary-text {
+    color: #D66313 !important;
+}
+
+.border-primary {
+    border: 1px solid#D66313 !important;
+}
+
+.form-control {
+    outline: #D66313 !important;
+    border: 1px solid#D66313 !important;
+}
+
+
+.form-control:focus {
+    border-color: #D66313 !important;
+    outline: 1px solid #D66313 !important;
+    box-shadow: none;
+}
+
+.bg-search {
+    background-color: #D66313 !important;
+}
+
+.hero-background {
+    background-image: url("../assets/smokeeffect.png");
+    min-height: 60vh;
+    background-color: #D66313;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+}
+
+.btn-primary {
+
+    background-color: #D66313 !important;
+    outline: #D66313 !important;
+    border: #D66313 !important;
+}
+
+.bg-footer {
+    background-color: #FFBF93;
+}
