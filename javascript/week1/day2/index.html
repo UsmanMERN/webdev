@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background: #f8f8f8;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-family: sans-serif;
+        }
+
+        .circle-wrapper {
+            position: relative;
+            width: 300px;
+            height: 300px;
+        }
+
+        .circle-image {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: contain;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 300px;
+            height: 300px;
+        }
+
+        text {
+            fill: #222;
+            font-size: 18px;
+            font-weight: bold;
+            letter-spacing: 3px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <div class="circle-wrapper">
+        <!-- Circular Image in Center -->
+        <img src="./car2.png" class="circle-image" alt="Circle" id="car">
+
+        <!-- SVG Circle Text -->
+        <svg viewBox="0 0 300 300">
+            <defs>
+                <path id="circlePath" d="M 150,150
+                 m -120,0
+                 a 120,120 0 1,1 240,0
+                 a 120,120 0 1,1 -240,0" />
+            </defs>
+            <text>
+                <textPath href="#circlePath" startOffset="50%" text-anchor="middle">
+                    YOUR CUSTOM TEXT GOES AROUND HERE · YOUR CUSTOM TEXT GOES AROUND HERE
+                </textPath>
+            </text>
+        </svg>
+    </div>
+    <button onclick="hidecar()">click me!</button>
+
+    <script src="./scripts/srcipt.js"></script>
+
+</body>
+
+</html>
