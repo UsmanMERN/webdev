@@ -6,16 +6,29 @@
 
 // }
 
-document.getElementById("submitbtn").onclick = function () {
+function calculate() {
+    const calc = document.getElementById('name').value
+
+    console.log('calc :>> ', calc);
+    const frn = calc * 9 / 5 + 32
+
+    console.log('frn :>> ', frn);
+}
+
+document.getElementById("submitbtn").onkeyup = function () {
     // console.log('double clikc');
-    const name = document.getElementById('name').value
+    const calc = document.getElementById('name').value
+
+    const frn = (calc * 9 / 5) + 32
+
+    console.log('frn :>> ', frn);
     const age = document.getElementById('age').value
     const address = document.getElementById('address').value
 
-    if (!name || !age || !address) {
-        alert("kindly enter your info")
-        return
-    }
+    // if (!name || !age || !address) {
+    //     alert("kindly enter your info")
+    //     return
+    // }
 
 
     let message = document.getElementById('message')
