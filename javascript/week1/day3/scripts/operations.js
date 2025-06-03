@@ -44,15 +44,15 @@
 // console.log('num3 :>> ', false || false); // ==> false
 // console.log('num3 :>> ', true || true); // ==> true
 
-console.log('num3 :>> ', !true); // ==> false
-console.log('num4 :>> ', !false); // ==> true
+// console.log('num3 :>> ', !true); // ==> false
+// console.log('num4 :>> ', !false); // ==> true
 
 
 
-let name = 'Adnan';
-let age = 17;
-let city = 'lahore';
-let isStudent = false;
+// let name = 'Adnan';
+// let age = 17;
+// let city = 'lahore';
+// let isStudent = false;
 
 
 // if (age >= 18 || city == 'faislabad' || isStudent) {
@@ -60,3 +60,9 @@ let isStudent = false;
 // } else {
 //     console.log('You are not eligible to vote');
 // }
+
+// - Assignment Operators (`=` , `+=` , `-=` , `*=` , `/=` )
+
+let num = 12
+
+// =  == ===
